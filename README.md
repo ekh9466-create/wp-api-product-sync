@@ -1,26 +1,26 @@
 # wp-api-product-sync
 
-پلاگین WordPress برای انتقال/همگام‌سازی محصولات بین دو سایت WooCommerce از طریق REST API.
+A WordPress plugin to transfer/sync WooCommerce products between two sites via the WooCommerce REST API.
 
-## قابلیت‌ها
-- لیست محصولات سایت مبدا داخل پنل ادمین
-- انتخاب محصول و انتقال به سایت مقصد
-- انتقال اطلاعات محصول (عنوان، توضیحات، تصاویر، گالری، ویژگی‌ها)
-- قابل استفاده برای سناریوهای مهاجرت یا همگام‌سازی محتوا
+## Features
+- List source-site products inside the WordPress admin
+- Select a product and transfer it to the destination site
+- Transfers full product content (title, description, featured image, gallery, attributes)
+- Useful for migration and content synchronization workflows
 
-## نیازمندی‌ها
--  از WordPress + WooCommerce روی هر دو سایت
-- ساخت Consumer Key/Secret برای REST API
-- دسترسی شبکه‌ای سایت مقصد از سمت سایت مبدا
+## Requirements
+- WordPress + WooCommerce on both sites
+- WooCommerce REST API Consumer Key/Secret
+- Network access from the source site to the destination site
 
-## نصب
-1) پوشه پلاگین را در مسیر زیر قرار بده:
-   الف) `wp-content/plugins/wp-api-product-sync/`
-2) پلاگین را از بخش Plugins فعال کن.
-3) تنظیمات اتصال (Base URL و کلیدها) را در صفحه تنظیمات پلاگین وارد کن.
+## Installation
+1) Upload the plugin folder to:
+   `wp-content/plugins/wp-api-product-sync/`
+2) Activate the plugin from **Plugins**.
+3) Fill in connection settings (Base URL + API keys) in the plugin settings page.
 
-## نکته مهم
-این پلاگین قیمت را منتقل نمی‌کند (طبق نیاز فعلی).
+## Notes
+- Price is intentionally not transferred (by current requirement).
 
 ## License
 GPL-2.0

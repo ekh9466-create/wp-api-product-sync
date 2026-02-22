@@ -9,13 +9,13 @@
 - قابل استفاده برای سناریوهای مهاجرت یا همگام‌سازی محتوا
 
 ## نیازمندی‌ها
-- WordPress + WooCommerce روی هر دو سایت
+-  از WordPress + WooCommerce روی هر دو سایت
 - ساخت Consumer Key/Secret برای REST API
 - دسترسی شبکه‌ای سایت مقصد از سمت سایت مبدا
 
 ## نصب
 1) پوشه پلاگین را در مسیر زیر قرار بده:
-   `wp-content/plugins/wp-api-product-sync/`
+   الف) `wp-content/plugins/wp-api-product-sync/`
 2) پلاگین را از بخش Plugins فعال کن.
 3) تنظیمات اتصال (Base URL و کلیدها) را در صفحه تنظیمات پلاگین وارد کن.
 

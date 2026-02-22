@@ -1,0 +1,7 @@
+{
+  "name": "wp-api-product-sync-dev",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "dev",
+  "workspaceFolder": "/workspaces/wp-api-product-sync",
+  "postCreateCommand": "git config --global --add safe.directory /workspaces/wp-api-product-sync"
+}
